@@ -1,0 +1,171 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-注册</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<script type="text/javascript" src="{% static 'js/jquery-1.12.4.min.js' %}"></script>
+{#	<script type="text/javascript" src="{% static 'js/register.js' %}"></script>#}
+    <script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/register_my.js' %}"></script>
+    <style>
+        .red{color:red}
+		.green{color:green}
+        .wrong{color:red}
+        .right{color:green}
+    </style>
+</head>
+<body>
+	<div class="register_con">
+		<div class="l_con fl">
+			<a href="{% url 'index' %}" class="reg_logo"><img src="{% static 'images/logo02.png' %}"></a>
+			<div class="reg_slogan">足不出户  ·  新鲜每一天</div>
+			<div class="reg_banner"></div>
+		</div>
+
+		<div class="r_con fr">
+			<div class="reg_title clearfix">
+				<h1>用户注册</h1>
+				<a href="{% url 'login' %}">登录</a>
+			</div>
+			<div class="reg_form clearfix">
+				<form method="post">
+				<ul>
+					<li>
+						<label>用户名:</label>
+						<input type="text" name="user_name" id="user_name">
+						<span class="error_tip">提示信息</span>
+                        <br/>
+                        <span id='error_name' ></span>
+					</li>
+					<li>
+						<label>密码:</label>
+						<input type="password" name="pwd" id="pwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>确认密码:</label>
+						<input type="password" name="cpwd" id="cpwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+                    <li>
+                        <label>手机:</label>
+                        <input type="text" name="phone" id="phone">
+                        <span id='error_phone' ></span>
+                    </li>
+					<li>
+						<label>邮箱:</label>
+						<input type="text" name="email" id="email">
+						<span class="error_tip">提示信息</span>
+					<li class="agreement">
+						<input type="checkbox" name="allow" id="allow" checked="checked">
+						<label>同意”天天生鲜用户使用协议“</label>
+						<span class="error_tip2">提示信息</span>
+					</li>
+					<li class="reg_sub">
+						<input type="submit" value="注 册" name="">
+					</li>
+				</ul>
+
+				</form>
+			</div>
+        <h3 style="color: red">{{ error }}</h3>
+		</div>
+
+	</div>
+
+	<div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+	
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+        $(function () {
+            // 添加点击事件 鼠标浮动时变成小手
+            $('#sp2').css('cursor', 'pointer').click(function () {
+                // 获取到图片的src路径  换一个新的路径   此代码相当与在原来的基础上增加数据
+                $('#yzm2').attr('src', $("#yzm2").attr('src')+'?'+Math.random())
+            })
+        })
+</script>
+
+<script type="text/javascript">
+
+    //验证用户名
+    $(function () {
+        console.log('加载成功用户名验证....');
+        $('#user_name').change(function () {
+            console.log('名字:'+$(this).val());
+            var user_name = $(this).val();
+            var gz = /^[a-zA-Z0-9_-]{5,16}$/;
+            $.ajax({
+                type: "GET",
+                url: "http://127.0.0.1:8000/check/",
+                data: "user_name="+user_name,
+                dataType:"json",
+                success:function(con){
+                    if (user_name = '' || gz.test(user_name) == false){
+                        $('#error_name').html('用户名为5-16位').removeClass('green').addClass('red')
+                    }else if (con.result == 'false'){
+                        $('#error_name').html('用户名已被占用').removeClass('green').addClass('red')
+                    }else {
+                        $('#error_name').html('欢迎注册').removeClass('red').addClass('green')
+                    }
+                },
+                error:function (msg) {
+                    console.log(msg);
+                    console.log('状态码:'+msg.status);
+                    console.log('提示'+msg.responseText);
+                }
+            })
+        });
+    });
+
+    //验证手机
+    $(function () {
+        console.log('加载成功手机号码验证....');
+        $('#phone').change(function () {
+            console.log('名字:'+$(this).val());
+            var phone = $(this).val();
+            var gz_phone = /^1[34578]\d{9}$/;
+            $.ajax({
+                type: "GET",
+                url: "http://127.0.0.1:8000/phones/",
+                data: "phone="+phone,
+                dataType:"json",
+                success:function(con){
+                    if (phone = '' || gz_phone.test(phone) == false){
+                        $('#error_phone').html('手机号格式异常').removeClass('green').addClass('red')
+                    }else if (con.result == 'false'){
+                        $('#error_phone').html('手机号已被使用').removeClass('green').addClass('red')
+                    }else {
+                        $('#error_phone').html('欢迎使用').removeClass('red').addClass('green')
+                    }
+                },
+                error:function (msg) {
+                    console.log(msg);
+                    console.log('状态码:'+msg.status);
+                    console.log('提示'+msg.responseText);
+                }
+            })
+        });
+
+    });
+
+</script>
+
+</html>

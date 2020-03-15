@@ -1,0 +1,235 @@
+[2020-03-15 16:42:25,357][MainThread:11936][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:42:41,537][MainThread:37316][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:42:44,553][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /css/reset.css]
+[2020-03-15 16:42:44,555][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /css/main.css]
+[2020-03-15 16:42:44,557][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /js/jquery-1.12.4.min.js]
+[2020-03-15 16:42:44,564][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /js/slide.js]
+[2020-03-15 16:42:44,566][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide.jpg]
+[2020-03-15 16:42:44,574][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner01.jpg]
+[2020-03-15 16:42:44,576][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods003.jpg]
+[2020-03-15 16:42:44,577][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods002.jpg]
+[2020-03-15 16:42:44,582][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods001.jpg]
+[2020-03-15 16:42:44,583][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods012.jpg]
+[2020-03-15 16:42:44,585][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner02.jpg]
+[2020-03-15 16:42:44,589][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods018.jpg]
+[2020-03-15 16:42:44,591][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods019.jpg]
+[2020-03-15 16:42:44,593][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods020.jpg]
+[2020-03-15 16:42:44,595][Thread-4:11436][task_id:django.request][log.py:228][WARNING][Not Found: /js/jquery-ui.min.js]
+[2020-03-15 16:42:44,598][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /js/slideshow.js]
+[2020-03-15 16:42:44,601][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods021.jpg]
+[2020-03-15 16:42:44,603][Thread-5:16504][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide02.jpg]
+[2020-03-15 16:42:44,604][Thread-3:23912][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner03.jpg]
+[2020-03-15 16:42:44,608][Thread-2:36768][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods.jpg]
+[2020-03-15 16:42:44,610][Thread-1:27180][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner06.jpg]
+[2020-03-15 16:42:44,612][Thread-6:36476][task_id:django.request][log.py:228][WARNING][Not Found: /images/adv02.jpg]
+[2020-03-15 16:42:44,617][Thread-5:16504][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner05.jpg]
+[2020-03-15 16:42:44,619][Thread-7:37508][task_id:django.request][log.py:228][WARNING][Not Found: /images/adv01.jpg]
+[2020-03-15 16:42:44,624][Thread-8:38848][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide03.jpg]
+[2020-03-15 16:42:44,627][Thread-9:31248][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide04.jpg]
+[2020-03-15 16:42:44,629][Thread-10:23788][task_id:django.request][log.py:228][WARNING][Not Found: /images/logo.png]
+[2020-03-15 16:42:44,633][Thread-11:37240][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner04.jpg]
+[2020-03-15 16:42:44,805][Thread-11:37240][task_id:django.request][log.py:228][WARNING][Not Found: /favicon.ico]
+[2020-03-15 16:43:03,350][Thread-12:22680][task_id:django.request][log.py:228][WARNING][Not Found: /css/reset.css]
+[2020-03-15 16:43:03,356][Thread-13:37032][task_id:django.request][log.py:228][WARNING][Not Found: /css/main.css]
+[2020-03-15 16:43:03,358][Thread-12:22680][task_id:django.request][log.py:228][WARNING][Not Found: /images/logo.png]
+[2020-03-15 16:43:03,361][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /js/jquery-1.12.4.min.js]
+[2020-03-15 16:43:03,365][Thread-15:37224][task_id:django.request][log.py:228][WARNING][Not Found: /js/jquery-ui.min.js]
+[2020-03-15 16:43:03,368][Thread-16:27528][task_id:django.request][log.py:228][WARNING][Not Found: /js/slide.js]
+[2020-03-15 16:43:03,372][Thread-13:37032][task_id:django.request][log.py:228][WARNING][Not Found: /js/slideshow.js]
+[2020-03-15 16:43:03,375][Thread-17:36924][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide.jpg]
+[2020-03-15 16:43:03,387][Thread-17:36924][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide02.jpg]
+[2020-03-15 16:43:03,392][Thread-16:27528][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide03.jpg]
+[2020-03-15 16:43:03,394][Thread-13:37032][task_id:django.request][log.py:228][WARNING][Not Found: /images/slide04.jpg]
+[2020-03-15 16:43:03,396][Thread-15:37224][task_id:django.request][log.py:228][WARNING][Not Found: /images/adv01.jpg]
+[2020-03-15 16:43:03,398][Thread-12:22680][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner01.jpg]
+[2020-03-15 16:43:03,400][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /images/adv02.jpg]
+[2020-03-15 16:43:03,407][Thread-17:36924][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods003.jpg]
+[2020-03-15 16:43:03,413][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods002.jpg]
+[2020-03-15 16:43:03,419][Thread-15:37224][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods001.jpg]
+[2020-03-15 16:43:03,422][Thread-12:22680][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods012.jpg]
+[2020-03-15 16:43:03,424][Thread-13:37032][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner02.jpg]
+[2020-03-15 16:43:03,425][Thread-16:27528][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods018.jpg]
+[2020-03-15 16:43:03,434][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods019.jpg]
+[2020-03-15 16:43:03,436][Thread-17:36924][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods020.jpg]
+[2020-03-15 16:43:03,441][Thread-16:27528][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods/goods021.jpg]
+[2020-03-15 16:43:03,443][Thread-13:37032][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner03.jpg]
+[2020-03-15 16:43:03,447][Thread-12:22680][task_id:django.request][log.py:228][WARNING][Not Found: /images/goods.jpg]
+[2020-03-15 16:43:03,451][Thread-15:37224][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner04.jpg]
+[2020-03-15 16:43:03,454][Thread-17:36924][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner05.jpg]
+[2020-03-15 16:43:03,457][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /images/banner06.jpg]
+[2020-03-15 16:43:03,583][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /js/slideshow.js]
+[2020-03-15 16:43:12,132][Thread-14:38364][task_id:django.request][log.py:228][WARNING][Not Found: /111]
+[2020-03-15 16:53:49,791][MainThread:38648][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:53:51,878][Thread-1:38316][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: header.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\D\demo_webpage\haima\app1\views.py", line 8, in index
+    return render(request,'index.html')
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: header.html
+[2020-03-15 16:54:16,417][MainThread:39932][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:54:17,901][Thread-1:39292][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: header.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\D\demo_webpage\haima\app1\views.py", line 8, in index
+    return render(request,'index.html')
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: header.html
+[2020-03-15 16:54:46,867][MainThread:37136][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:54:48,682][Thread-1:37392][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: header.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\D\demo_webpage\haima\app1\views.py", line 8, in index
+    return render(request,'index.html')
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: header.html
+[2020-03-15 16:55:51,926][MainThread:13328][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 16:55:53,292][Thread-1:26400][task_id:django.request][log.py:228][ERROR][Internal Server Error: /]
+Traceback (most recent call last):
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "G:\D\demo_webpage\haima\app1\views.py", line 8, in index
+    return render(request,'index.html')
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\loader_tags.py", line 188, in render
+    return template.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 173, in render
+    return self._render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\base.py", line 903, in render_annotated
+    return self.render(context)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\template\defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\urls\base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "G:\D\demo_webpage\haima\venv\lib\site-packages\django\urls\resolvers.py", line 677, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+[2020-03-15 17:19:38,171][MainThread:31420][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 17:22:37,672][MainThread:22164][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]
+[2020-03-15 17:23:05,841][MainThread:40736][task_id:django.utils.autoreload][autoreload.py:598][INFO][Watching for file changes with StatReloader]

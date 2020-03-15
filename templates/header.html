@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="header_con">
+		<div class="header">
+			<div class="welcome fl">欢迎来到海马生鲜!</div>
+			<div class="fr">
+                {% if name %}
+                    <div class="login_btn fl">
+                        欢迎您：<em style="color: red">{{ name }}</em>
+{#                        <a href="{% url 'logout' %}">退出登录</a>#}
+                    </div>
+                {% else %}
+                    <div class="login_btn fl">
+                        <a href="{% url 'login' %}">登录</a>
+                        <span>|</span>
+                        <a href="{% url 'register' %}">注册</a>
+				    </div>
+                {% endif %}
+
+				<div class="user_link fl">
+					<span>|</span>
+					<a href="{% url 'userinfo' %}">用户中心</a>
+					<span>|</span>
+					<a href="{% url 'cart' %}">我的购物车</a>
+					<span>|</span>
+					<a href="#">我的订单</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

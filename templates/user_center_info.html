@@ -1,0 +1,248 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>天天生鲜-用户中心</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/reset.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+</head>
+<body>
+	{% include 'header.html' %}
+
+	<div class="search_bar clearfix">
+		<a href="{% url 'index' %}" class="logo fl"><img src="{% static 'images/logo.png' %}"></a>
+		<div class="sub_page_name fl">|&nbsp;&nbsp;&nbsp;&nbsp;用户中心</div>
+		<div class="search_con fr">
+			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="button" class="input_btn fr" name="" value="搜索">
+		</div>		
+	</div>
+
+	<div class="main_con clearfix">
+		<div class="left_menu_con clearfix">
+			<h3>用户中心</h3>
+			<ul>
+				<li><a href="user_center_info.html" class="active">· 个人信息</a></li>
+				<li><a href="user_center_order.html">· 全部订单</a></li>
+				<li><a href="user_center_site.html">· 收货地址</a></li>
+			</ul>
+		</div>
+		<div class="right_content clearfix">
+				<div class="info_con clearfix">
+				<h3 class="common_title2">基本信息</h3>
+						<ul class="user_info_list" style="height: 105px">
+							<li><span>用户名：</span>{{name}}</li>
+							<li><span>联系方式：</span>{{email}}</li>
+                            <li><span>手机：</span>{{phone}}</li>
+							<li><span>联系地址：</span></li>
+						</ul>
+				</div>
+                <div class="info_con clearfix">
+				<h3 class="common_title2">修改密码</h3>
+
+                    <ul class="user_info_list" style="height: 200px">
+{#                        {% if phone %}#}
+{#                            <div class="xiu">#}
+{##}
+{#                                <li><span>用户手机:</span><input type="text" name="phone" id="phone" value="{{phone}}" /></li>#}
+{#                                <li><span>验证码：</span><input type="text" name='smscode' id='smscode' placeholder="请手机验证码"><button id="sendsms">发送短信验证码</button></li>#}
+{#                                <span id="msg"></span>#}
+{#                            </div>#}
+{#                            {% else %}#}
+{#                            <span>手机号未录入！</span>#}
+{#                        {% endif %}#}
+
+                            <form method="post" class="form_gai" id="form_gai" style="disabled:False">
+                                <li><span>旧密码：</span><input type="password" id="opwd" name="opwd" placeholder="请输入原始密码"></li>
+                                <li><span>新密码：</span><input type="password" id="npwd" name="npwd" placeholder="请输入新密码"></li>
+                                <li><input type="submit" value="确认修改"></li>
+                            </form>
+						</ul>
+                    <h3 style="color: red">{{ err }}</h3>
+				</div>
+				
+				<h3 class="common_title2">最近浏览</h3>
+				<div class="has_view_list">
+					<ul class="goods_type_list clearfix">
+				<li>
+					<a href="detail.html"><img src="{% static 'images/goods/goods003.jpg' %}"></a>
+					<h4><a href="detail.html">大兴大棚草莓</a></h4>
+					<div class="operate">
+						<span class="prize">￥16.80</span>
+						<span class="unit">16.80/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+
+				<li>
+					<a href="#"><img src="{% static 'images/goods/goods004.jpg' %}"></a>
+					<h4><a href="#">吐鲁番梨光杏</a></h4>
+					<div class="operate">
+						<span class="prize">￥5.50</span>
+						<span class="unit">5.50/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+
+				<li>
+					<a href="#"><img src="{% static 'images/goods/goods005.jpg' %}"></a>
+					<h4><a href="#">黄肉桃</a></h4>
+					<div class="operate">
+						<span class="prize">￥10.00</span>
+						<span class="unit">10.00/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+
+				<li>
+					<a href="#"><img src="{% static 'images/goods/goods006.jpg' %}"></a>
+					<h4><a href="#">进口西梅</a></h4>
+					<div class="operate">
+						<span class="prize">￥28.80</span>
+						<span class="unit">28.8/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+
+				<li>
+					<a href="#"><img src="{% static 'images/goods/goods007.jpg' %}"></a>
+					<h4><a href="#">香梨</a></h4>
+					<div class="operate">
+						<span class="prize">￥6.45</span>
+						<span class="unit">6.45/500g</span>
+						<a href="#" class="add_goods" title="加入购物车"></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		</div>
+	</div>
+
+
+
+	<div class="footer">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">招聘人才</a>
+			<span>|</span>
+			<a href="#">友情链接</a>		
+		</div>
+		<p>CopyRight © 2016 北京天天生鲜信息技术有限公司 All Rights Reserved</p>
+		<p>电话：010-****888    京ICP备*******8号</p>
+	</div>
+
+
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <script type="text/javascript">
+    //短信验证
+    $(function(){
+        $("#smscode").change(function(){
+            console.log('开始验证.....')
+            //1 获取phone和验证码
+            var phone = $("#phone").val()
+            var code = $(this).val()
+            // 2 ajax
+            $.ajax({
+                type:'get',
+                url:'/check_sms/',
+                data:'phone='+phone+'&code='+code,
+                success:function(msg){
+                    //结果已经统一规整为json对象了,不需要转换了
+                    console.log('结果就是对象'+typeof(msg))
+                    if(msg.code=='200'){
+                        $('#msg').html('验证码正确')
+                        $('#msg').attr("disabled",'true')
+                        $('#form_gai').attr('disable','false')
+                    }else{
+                        $('#msg').html('验证码输入错误')
+                    }
+                },
+                error:function(resp){
+                    console.log(resp.status)
+                    alert('连接服务器失败')
+                }
+            })
+        })
+    })
+    //end 短信验证
+    </script>
+
+    <script type="text/javascript">
+        {#    在点击发送按钮后一分钟倒计时开始到0停止，同时无法选中#}
+        $(function(){
+    //事件
+    //短信验证码
+    //1. 找标签:btn1
+    //2. 定时器完成: 显示时间变化!!!
+    //setInterval(函数, 时间)
+    //3.难点: 定时器中函数,不断减1, 见到<0终止!!!!
+    var btn1 = $('#sendsms');
+    var count=60; // 倒计时数量 一般为60秒!
+    var timer =null; //定时器
+    //事件
+    btn1.click(function(){
+        phone = $('#phone').val()
+        if(phone==''){
+            alert('请输入电话号码')
+            return false;
+        }
+
+	//ajax调用短信API接口接受电话号码-->返回是否成功!
+    //Ajax发送短信
+	$.ajax({
+		type:'get',
+		url:'/send_sms/',
+		data:'phone='+phone,
+		success:function(msg){
+			console.log("成功返回结果:"+msg)
+			obj = eval("("+msg+")");
+			console.log('查看');
+			console.log(obj);
+			if(obj.Message=="OK"){
+				$("#msg").html("发送成功")
+			}else{
+				$("#msg").html("发送失败")
+			}
+		},
+		error:function(resp){
+			console.log(resp.status)
+			alert('连接后台失败')
+		}
+	})
+	//end 发送短信
+
+
+ 	//禁用
+ 	$(this).attr("disabled",'true')
+ 	var _this=  $(this);
+ 	//定时器实现时间每次减少1
+ 	timer = setInterval(function(){
+ 		console.log("剩余时间:"+count);
+ 		if(count>=1){
+ 			count--;
+ 			//this表示对象!!!! 表示定时器!!!!
+ 			_this.val(count+"秒s后重发")
+ 		}else{
+ 			_this.disabled = false;
+ 			clearInterval(timer);
+ 			_this.html("重新发送")
+ 			count=60
+ 			$('#sendsms').removeAttr("disabled")
+ 		}
+	 },1000);
+})
+//短信验证end
+
+
+
+})
+
+    </script>
+
+</body>
+</html>
